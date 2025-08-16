@@ -1,80 +1,233 @@
 [
-    
-    {
-  "id": "hamstring-static",
-  "name": "Standing Hamstring Stretch",
-  "group": "lower",
-  "muscles": ["Hamstrings"],
-  "duration": "20–30s",
-  "type": "recovery",
-  "steps": [
-    "Stand tall and place one heel forward with toes up.",
-    "Hinge at the hips with a flat back until you feel a stretch.",
-    "Hold and breathe; switch legs."
-  ]
-    },
+  {
+    "id": "hamstring",
+    "type": "recovery",
+    "name": "Standing Hamstring Stretch",
+    "group": "lower",
+    "muscles": ["Hamstrings"],
+    "duration": "20–30s",
+    "steps": [
+      "Stand upright with feet together.",
+      "Extend one leg forward, resting your heel on a low surface.",
+      "Hinge forward at the hips while keeping your back straight.",
+      "Hold the stretch, then switch legs."
+    ],
+    "image": "Pictures/wall-hamstring.png"
+  },
+  {
+    "id": "wrist-flexor",
+    "type": "warmup",
+    "name": "Wrist Flexor Stretch",
+    "group": "upper",
+    "muscles": ["Forearm Flexors"],
+    "duration": "15–20s",
+    "steps": [
+      "Extend one arm forward with palm up.",
+      "Use the other hand to gently pull the fingers downward.",
+      "Hold the stretch, then switch arms."
+    ],
+    "image": "Pictures/resisted-wrist-flexion.png"
+  },
+  {
+    "id": "quad",
+    "type": "recovery",
+    "name": "Standing Quad Stretch",
+    "group": "lower",
+    "muscles": ["Quadriceps"],
+    "duration": "20–30s",
+    "steps": [
+      "Stand tall and balance on one leg.",
+      "Grab the ankle of the other leg and pull it toward your glutes.",
+      "Keep knees close together and hips forward.",
+      "Hold the stretch, then switch legs."
+    ],
+    "image": "Pictures/standing-squad.png"
+  },
+  {
+    "id": "shoulder",
+    "type": "warmup",
+    "name": "Cross-Body Shoulder Stretch",
+    "group": "upper",
+    "muscles": ["Deltoids"],
+    "duration": "20–30s",
+    "steps": [
+      "Bring one arm across your chest.",
+      "Use your other arm to gently press it closer to your body.",
+      "Hold the stretch, then switch arms."
+    ],
+    "image": "Pictures/cross-arm.png"
+  },
+  {
+    "id": "cat-cow",
+    "type": "warmup",
+    "name": "Cat–Cow Flow",
+    "group": "full",
+    "muscles": ["Spine", "Back"],
+    "duration": "5–8 cycles",
+    "steps": [
+      "Begin on all fours with hands under shoulders and knees under hips.",
+      "Arch your back up toward the ceiling (Cat).",
+      "Then slowly drop your belly down while lifting your head and tailbone (Cow).",
+      "Repeat for several cycles."
+    ],
+    "image": "Pictures/cat-cow-pose.jpg"
+  },
 
-    {
-  "id": "elbow-wrist-flexors",
-  "name": "Wrist Flexor Stretch",
-  "group": "upper",
-  "muscles": ["Forearm Flexors"],
-  "duration": "15–20s",
-  "type": "warmup",
-  "steps": [
-    "Extend one arm with palm up.",
-    "Gently pull the fingers back with the opposite hand.",
-    "Hold; switch sides."
-  ]
-    },
-
-    {
-  "id": "quads-standing",
-  "name": "Standing Quad Stretch",
+  {
+  "id": "chair-quad",
+  "name": "Chair Quad Stretch",
   "group": "lower",
   "muscles": ["Quadriceps"],
   "duration": "20–30s",
   "type": "recovery",
   "steps": [
-    "Stand tall and grasp your ankle behind you.",
-    "Bring knees together and gently pull heel toward glute.",
-    "Hold; switch legs."
-  ]
-    },
-
-    {
-  "id": "shoulder-cross-body",
-  "name": "Cross-Body Shoulder Stretch",
+    "Stand behind a chair and hold the backrest for balance.",
+    "Grab one ankle and pull heel toward glute.",
+    "Keep knees together, hold; switch legs."
+  ],
+  "image": "Pictures/chair-quad.png"
+ },
+ {
+  "id": "floor-quad",
+  "name": "Side-Lying Quad Stretch",
+  "group": "lower",
+  "muscles": ["Quadriceps", "Hip Flexors"],
+  "duration": "20–30s",
+  "type": "recovery",
+  "steps": [
+    "Lie on your side and bend the top knee.",
+    "Grab the top ankle and gently pull heel toward glute.",
+    "Keep hips stacked; hold; switch sides."
+  ],
+  "image": "Pictures/floor-quad.png"
+ },
+ {
+  "id": "knee-to-chest",
+  "name": "Knee-to-Chest",
+  "group": "full",
+  "muscles": ["Glutes", "Lower Back"],
+  "duration": "20–30s",
+  "type": "recovery",
+  "steps": [
+    "Lie on your back with knees bent.",
+    "Bring one knee toward chest and hold behind the thigh or shin.",
+    "Keep the other leg relaxed; hold; switch sides."
+  ],
+  "image": "Pictures/knee-to-chest.png"
+ },
+ {
+  "id": "shoulder-external-rotation",
+  "name": "Shoulder External Rotation (Doorway)",
+  "group": "upper",
+  "muscles": ["Rotator Cuff"],
+  "duration": "15–20s",
+  "type": "warmup",
+  "steps": [
+    "Stand near a doorway with elbow at 90° by your side.",
+    "Gently rotate forearm outward while keeping elbow tucked.",
+    "Hold a light stretch; relax and repeat."
+  ],
+  "image": "Pictures/external-rotation.png"
+ },
+ {
+  "id": "shoulder-rolls",
+  "name": "Shoulder Rolls",
+  "group": "upper",
+  "muscles": ["Trapezius", "Deltoids"],
+  "duration": "8–10 circles",
+  "type": "warmup",
+  "steps": [
+    "Stand tall with arms relaxed at sides.",
+    "Roll shoulders up, back, and down in smooth circles.",
+    "Repeat forward circles."
+  ],
+  "image": "Pictures/shoulder-rolls.png"
+ },
+ {
+  "id": "shoulder-raise",
+  "name": "Shoulder Raises (Mobility)",
   "group": "upper",
   "muscles": ["Deltoids"],
-  "duration": "20–30s",
+  "duration": "8–12 reps",
   "type": "warmup",
   "steps": [
-    "Bring one arm across your chest.",
-    "Use the opposite hand to pull gently toward you.",
-    "Hold; switch sides."
-  ]
-    },
-
-    {
-  "id": "cat-cow-flow",
-  "name": "Cat–Cow Flow",
+    "Stand tall with arms at sides and palms in.",
+    "Raise arms to shoulder height with control.",
+    "Lower slowly and repeat."
+  ],
+  "image": "Pictures/shoulder-raise.png"
+ },
+ {
+  "id": "standing-forward-bend",
+  "name": "Standing Forward Bend",
   "group": "full",
-  "muscles": ["Spine", "Back"],
-  "duration": "5–8 cycles",
+  "muscles": ["Hamstrings", "Lower Back"],
+  "duration": "20–30s",
+  "type": "recovery",
+  "steps": [
+    "Stand with feet hip-width apart.",
+    "Hinge at the hips, letting head and arms relax toward floor.",
+    "Soften knees as needed; hold and breathe."
+  ],
+  "image": "Pictures/standing-forward-bend.png"
+ },
+ {
+  "id": "wrist-extensor",
+  "name": "Wrist Extensor Stretch",
+  "group": "upper",
+  "muscles": ["Forearm Extensors"],
+  "duration": "15–20s",
   "type": "warmup",
   "steps": [
-    "Start in tabletop position.",
-    "Inhale, drop belly and lift chest (Cow).",
-    "Exhale, round spine and tuck chin (Cat)."
-  ]
-    }
+    "Extend one arm forward with palm down.",
+    "Use the other hand to gently pull fingers toward you.",
+    "Hold; switch sides."
+  ],
+  "image": "Pictures/wrist-extensor.png"
+ },
+ {
+  "id": "wrist-extension-resisted",
+  "name": "Resisted Wrist Extension (Light)",
+  "group": "upper",
+  "muscles": ["Forearm Extensors"],
+  "duration": "8–12 reps",
+  "type": "warmup",
+  "steps": [
+    "Hold a light band or weight with palm down.",
+    "Extend wrist upward against resistance.",
+    "Lower slowly; switch sides."
+  ],
+  "image": "Pictures/resisted-wrist-extension.png"
+},
 
-
-
-
-
-
+{
+  "id": "standing-squat",
+  "name": "Standing Squat Hold",
+  "group": "lower",
+  "muscles": ["Quadriceps", "Glutes"],
+  "duration": "15–30s",
+  "type": "warmup",
+  "steps": [
+    "Stand with feet shoulder-width apart.",
+    "Lower into a squat position, keeping chest tall and knees behind toes.",
+    "Hold at the bottom; push through heels to rise."
+  ],
+  "image": "Pictures/squat-hold.jpg"
+},
+{
+  "id": "standing-calf",
+  "name": "Standing Calf Stretch",
+  "group": "lower",
+  "muscles": ["Calves"],
+  "duration": "20–30s",
+  "type": "recovery",
+  "steps": [
+    "Stand facing a wall with one foot forward, one back.",
+    "Press back heel into the floor while leaning slightly forward.",
+    "Hold; switch sides."
+  ],
+  "image": "Pictures/standing-calf-stretch.jpg"
+}
 
 
 ]
