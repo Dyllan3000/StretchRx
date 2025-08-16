@@ -32,20 +32,37 @@ function byQuery(s){
 }
 function cardFor(s){
   const node = tpl.content.cloneNode(true);
+
+  // 1) show image if provided in JSON
+  const img = node.querySelector(".thumb");        // <img class="thumb" ...>
+  if (img && s.image) {
+    img.src = s.image;                             // e.g. "Pictures/wall-hamstring.png"
+    img.alt = s.name;
+    img.style.display = "block";                   // override CSS "display: none"
+  }
+
+  // 2) title + meta
   node.querySelector(".name").textContent = s.name;
   node.querySelector(".meta").textContent =
-    `${label(s.group)} • ${(s.muscles||[]).join(", ")||"—"} • ${s.duration||"—"}`;
+    `${label(s.group)} • ${(s.muscles || []).join(", ") || "—"} • ${s.duration || "—"}`;
+
+  // 3) steps
   const stepsOl = node.querySelector(".steps");
-  (s.steps||[]).forEach(step => {
+  (s.steps || []).forEach(step => {
     const li = document.createElement("li");
     li.textContent = step;
     stepsOl.appendChild(li);
   });
+
+  // 4) favorites
   const favBtn = node.querySelector(".fav");
   favBtn.classList.toggle("on", favs.has(s.id));
   favBtn.addEventListener("click", () => toggleFav(s.id, favBtn));
+
   return node;
 }
+
+
 function toggleFav(id, btn){
   if (favs.has(id)) favs.delete(id); else favs.add(id);
   localStorage.setItem(LS_KEY, JSON.stringify([...favs]));

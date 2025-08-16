@@ -25,3 +25,14 @@ body{ margin:0; font-family:system-ui, Segoe UI, Roboto, Arial; color:var(--text
 .fav.on{ color:goldenrod; }
 .meta{ margin:.35rem 0 .5rem; font-size:.95rem; color:#334155; }
 details{ margin-top:6px; }
+
+.card img.thumb{
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  display: none; /* stays hidden when no image provided */
+}
+
+
