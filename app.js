@@ -82,3 +82,5 @@ chipEls.forEach(chip => chip.addEventListener("click", () => {
   activeFilter = chip.dataset.filter;
   render();
 }));
+
+
