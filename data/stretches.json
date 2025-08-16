@@ -1,0 +1,80 @@
+[
+    
+    {
+  "id": "hamstring-static",
+  "name": "Standing Hamstring Stretch",
+  "group": "lower",
+  "muscles": ["Hamstrings"],
+  "duration": "20–30s",
+  "type": "recovery",
+  "steps": [
+    "Stand tall and place one heel forward with toes up.",
+    "Hinge at the hips with a flat back until you feel a stretch.",
+    "Hold and breathe; switch legs."
+  ]
+    },
+
+    {
+  "id": "elbow-wrist-flexors",
+  "name": "Wrist Flexor Stretch",
+  "group": "upper",
+  "muscles": ["Forearm Flexors"],
+  "duration": "15–20s",
+  "type": "warmup",
+  "steps": [
+    "Extend one arm with palm up.",
+    "Gently pull the fingers back with the opposite hand.",
+    "Hold; switch sides."
+  ]
+    },
+
+    {
+  "id": "quads-standing",
+  "name": "Standing Quad Stretch",
+  "group": "lower",
+  "muscles": ["Quadriceps"],
+  "duration": "20–30s",
+  "type": "recovery",
+  "steps": [
+    "Stand tall and grasp your ankle behind you.",
+    "Bring knees together and gently pull heel toward glute.",
+    "Hold; switch legs."
+  ]
+    },
+
+    {
+  "id": "shoulder-cross-body",
+  "name": "Cross-Body Shoulder Stretch",
+  "group": "upper",
+  "muscles": ["Deltoids"],
+  "duration": "20–30s",
+  "type": "warmup",
+  "steps": [
+    "Bring one arm across your chest.",
+    "Use the opposite hand to pull gently toward you.",
+    "Hold; switch sides."
+  ]
+    },
+
+    {
+  "id": "cat-cow-flow",
+  "name": "Cat–Cow Flow",
+  "group": "full",
+  "muscles": ["Spine", "Back"],
+  "duration": "5–8 cycles",
+  "type": "warmup",
+  "steps": [
+    "Start in tabletop position.",
+    "Inhale, drop belly and lift chest (Cow).",
+    "Exhale, round spine and tuck chin (Cat)."
+  ]
+    }
+
+
+
+
+
+
+
+
+]
